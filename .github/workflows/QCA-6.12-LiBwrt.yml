@@ -2,7 +2,7 @@
 name: QCA-6.12-LiBwrt
 
 #CI计划
-on:
+# on:
   #自动编译：当Auto-Clean运行完成后
 #  workflow_run:
 #    workflows: ["Auto-Clean"]
@@ -66,3 +66,4 @@ jobs:
       WRT_TEST: ${{inputs.TEST}}
 
       CI_NAME: ${{github.workflow}}
+
