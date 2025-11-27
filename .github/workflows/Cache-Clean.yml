@@ -5,7 +5,7 @@ on:
     #每周4:00
     #- cron: 0 20 * * 0
     #每天4:00
-    - cron: 0 0 20 * * *
+    - cron: 0 20 * * *
   workflow_dispatch:
 
 permissions: write-all
